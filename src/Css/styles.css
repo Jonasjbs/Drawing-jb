@@ -40,6 +40,7 @@ border-left: #020304;
 /* Grade De Drawing*/ 
 
 .content { background-color: #555;
+   
     min-height: 60vh;
     padding: 50px;
     
@@ -48,8 +49,11 @@ border-left: #020304;
      /* 60vh utiliza 60% da tela do seu sit*/
 }
 
-. products-container{ max-width: 1200px;
+.products-container{ max-width: 1200px;
+    min-width: 200px;
     margin: 0% auto;
+   
+    
 
 }
 
@@ -61,10 +65,12 @@ border-left: #020304;
     display: inline-block;
     margin:1% 1%;
     padding: 15px;
+   
 
 }
 
 .products-image {
+
 
     height: 300px;
     width:100%; 
@@ -77,7 +83,7 @@ border-left: #020304;
 
 
 #img-1{
-    background-image:url('../fotos/ima17.jpg') ;
+    background-image:url('../fotos/ima17.jpg');
 }
 
 #img-2{
@@ -113,10 +119,13 @@ border-left: #020304;
     margin-bottom: 10px;
     border-radius: 5px;
     background-color:rgb(80, 79, 79);
+    border: 0.8px solid #000;
+
  }
 
  .bold {
     font-weight: bold;
+   
  }
 
 .btn { display: block;
@@ -129,6 +138,7 @@ padding: 15px;
 border-radius: 5px;
 transition: 0.9s;
 background-color: black;
+
 }
 
 .btn:hover{ background-color: rgba(229, 233, 219, 0.659);}
@@ -151,6 +161,7 @@ padding: 35px;
 
 h3{
     border-radius: 5px;
+    
 }
 
 header{

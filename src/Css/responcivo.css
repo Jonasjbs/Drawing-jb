@@ -1,0 +1,42 @@
+ @media (max-width: 1120px)
+   {
+    .card{
+        min-width:100%;
+    }
+
+    .card p{
+        font-size: 0.8em;
+        margin:0 auto;
+        padding-left:7px;
+       margin-top: 3px;
+       }
+
+       .products-image{
+        min-width: 215px;
+       }
+    
+       .btn,h3{
+        width: 100px;
+        margin:0 auto;
+       margin-top: 10px;
+       font-size: 0.8em;
+       } 
+
+       H3{
+        width: 50px;
+        height: 20px;
+        line-height:20px;
+        font-size: 0.7em;
+        margin-bottom: 5px;
+       }
+
+      
+   }
+
+
+  
+   
+
+   
+   
+   
